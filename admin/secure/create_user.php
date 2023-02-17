@@ -1,6 +1,6 @@
-<?
-require_once "session.inc.php";
-require_once "secure.inc.php";
+<?php
+require_once "./session.inc.php";
+require_once "./secure.inc.php";
 ?>
 <!DOCTYPE HTML>
 <html>
