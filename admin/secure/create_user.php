@@ -11,7 +11,7 @@ require_once "secure.inc.php";
 
 <body>
 <h1>Создание пользователя</h1>
-<?
+<?php
 $login = 'root';
 $password = '1234';
 $result = '';
@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
 	}
 }
 ?>
-<h3><?= $result?></h3>
+<h3><?= $result ?></h3>
 <form action="<?= $_SERVER['PHP_SELF']?>" method="post">
 	<div>
 		<label for="txtUser">Логин</label>

@@ -3,6 +3,7 @@
 	require "../inc/lib.inc.php";
 	require "../inc/config.inc.php";
 	$orders = getOrders();
+	print_r($orders);
 ?>
 <!DOCTYPE html>
 <html>
